@@ -13,7 +13,7 @@ public class DisplayCrateInfo : MonoBehaviour
     [SerializeField] private Sprite epicSprite;
     
     public void SetUp(CrateRarity rarity) {
-        nameText.text = rarity.ToString() + " Crate";
+        nameText.text = rarity.ToString() + " ящик";
 
         switch(rarity){
             case CrateRarity.Common:    image.sprite = commonSprite; break;
