@@ -16,9 +16,15 @@ public class DisplayCrateInfo : MonoBehaviour
         nameText.text = rarity.ToString() + " ящик";
 
         switch(rarity){
-            case CrateRarity.Common:    image.sprite = commonSprite; break;
-            case CrateRarity.Rare:      image.sprite = rareSprite; break;
-            case CrateRarity.Legendary: image.sprite = epicSprite; break;
+            case CrateRarity.Common:
+                nameText.text = "Обычный ящик";
+                image.sprite = commonSprite; break;
+            case CrateRarity.Rare:
+                nameText.text = "Редкий ящик";
+                image.sprite = rareSprite; break;
+            case CrateRarity.Legendary:
+                nameText.text = "Легендарный ящик";
+                image.sprite = epicSprite; break;
         }
     }
 }
