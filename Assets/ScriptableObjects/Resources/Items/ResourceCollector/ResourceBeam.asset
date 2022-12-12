@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: ResourceBeam
   m_EditorClassIdentifier: 
   type: 0
-  name: Resource Beam
-  description: A resource beam to collect resources
+  name: "\u0420\u0435\u0441\u0443\u0440\u0441\u043D\u044B\u0439 \u043B\u0443\u0447 "
+  description: "\u0420\u0435\u0441\u0443\u0440\u0441\u043D\u044B\u0439 \u043B\u0443\u0447
+    \u0434\u043B\u044F \u0441\u0431\u043E\u0440\u0430 \u0440\u0435\u0441\u0443\u0440\u0441\u043E\u0432"
   uiDisplay: {fileID: 21300000, guid: f5e3b4faf542503479ca8a37ddc49aa6, type: 3}
   isMoveable: 0
   recipe: []

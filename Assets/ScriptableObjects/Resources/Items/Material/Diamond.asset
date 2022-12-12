@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Diamond
   m_EditorClassIdentifier: 
   type: 2
-  name: Diamond
-  description: It's diamond, the rarest material
+  name: "\u0410\u043B\u043C\u0430\u0437"
+  description: "\u042D\u0442\u043E \u0430\u043B\u043C\u0430\u0437, \u0441\u0430\u043C\u044B\u0439
+    \u0440\u0435\u0434\u043A\u0438\u0439 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B"
   uiDisplay: {fileID: 21300000, guid: c0a21c2828f86c94991aa1d028382195, type: 3}
   isMoveable: 1
   recipe:

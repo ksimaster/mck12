@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Sickle
   m_EditorClassIdentifier: 
   type: 5
-  name: Sickle
-  description: A slick sickle that slices
+  name: "\u0421\u0435\u0440\u043F"
+  description: "\u0413\u043B\u0430\u0434\u043A\u0438\u0439 \u0441\u0435\u0440\u043F,
+    \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0440\u0435\u0436\u0435\u0442"
   uiDisplay: {fileID: 21300000, guid: ce7a623818dfced44979b464dc89c731, type: 3}
   isMoveable: 1
   recipe:

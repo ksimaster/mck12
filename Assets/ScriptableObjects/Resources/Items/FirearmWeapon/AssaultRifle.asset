@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: AssaultRifle
   m_EditorClassIdentifier: 
   type: 6
-  name: Assault Rifle
-  description: A fully automatic assault rifle
+  name: "\u0410\u0432\u0442\u043E\u043C\u0430\u0442"
+  description: "\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+    \u0448\u0442\u0443\u0440\u043C\u043E\u0432\u0430\u044F \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0430"
   uiDisplay: {fileID: 21300000, guid: 83d831ecebfcaa64aa17b52bb209f31c, type: 3}
   isMoveable: 1
   recipe:

@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: HeavyAmmo
   m_EditorClassIdentifier: 
   type: 1
-  name: Heavy Ammo
-  description: Ammo used for the Sniper Rifle
+  name: "\u0422\u044F\u0436\u0435\u043B\u044B\u0435 \u0431\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B"
+  description: "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u043C\u044B\u0435
+    \u0434\u043B\u044F \u0441\u043D\u0430\u0439\u043F\u0435\u0440\u0441\u043A\u043E\u0439
+    \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0438"
   uiDisplay: {fileID: 21300000, guid: 569f0505d8d4136478b30e19f609f87e, type: 3}
   isMoveable: 1
   recipe:

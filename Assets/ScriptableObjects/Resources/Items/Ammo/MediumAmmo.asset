@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: MediumAmmo
   m_EditorClassIdentifier: 
   type: 1
-  name: Medium Ammo
-  description: Ammo used for the Assault Rifle
+  name: "\u0421\u0440\u0435\u0434\u043D\u0438\u0435 \u0431\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B"
+  description: "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u043C\u044B\u0435
+    \u0434\u043B\u044F \u0448\u0442\u0443\u0440\u043C\u043E\u0432\u043E\u0439 \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0438"
   uiDisplay: {fileID: 21300000, guid: 8b453302f10877b4597b502f26f2df2b, type: 3}
   isMoveable: 1
   recipe:
