@@ -12,7 +12,7 @@ public class ADScript : MonoBehaviour
     //public float rewardBonusSliderFuel;
     //public float lowBalanceFuel;
     public string nameScene;
-    public GameObject panelGameOver;
+   // public GameObject panelGameOver;
 
     public void ShareFriend(){
 #if UNITY_WEBGL && !UNITY_EDITOR
@@ -46,12 +46,12 @@ public class ADScript : MonoBehaviour
 
     private void Start()
     {
-        if(nameScene == "Main Menu") ShowAdInterstitial();
+        if(nameScene == "MainMenu" || nameScene == "EndScene") ShowAdInterstitial();
     }
 
     private void Update()
     {
         //if (sliderHome.value <= sliderHome.minValue) ShowAdInterstitial();
-        if(panelGameOver.activeSelf) ShowAdInterstitial();
+       // if(panelGameOver.activeSelf) ShowAdInterstitial();
     }
 }

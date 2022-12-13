@@ -26,7 +26,7 @@ public class MainMenu : MonoBehaviour
 
     public void Quit() {
         SFXManager.instance.Play("Back");
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
     }
     
     public void PlayHoverSound() {
