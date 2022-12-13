@@ -55,7 +55,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Quit() {
         SFXManager.instance.Play("Back");
-        SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void PlayHoverSound() {
