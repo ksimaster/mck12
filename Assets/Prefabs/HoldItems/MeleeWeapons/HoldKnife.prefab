@@ -27,7 +27,6 @@ Transform:
   m_LocalRotation: {x: -0.27550587, y: -0.10550786, z: -0.099619076, w: 0.95028454}
   m_LocalPosition: {x: 0, y: 0.15, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2263517370145502072}
   m_Father: {fileID: 0}
@@ -46,6 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemObject: {fileID: 11400000, guid: fbd003a6a7065c24cbd325ef2ad84d78, type: 2}
+  swingAnimation: MeleeSwing
+  damage: 15
+  range: 3
 --- !u!1001 &2263517370145630712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -120,6 +122,14 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 3708c934c3e67ed4abc3e1d3fc384a1c, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 3708c934c3e67ed4abc3e1d3fc384a1c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 3708c934c3e67ed4abc3e1d3fc384a1c, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3708c934c3e67ed4abc3e1d3fc384a1c, type: 3}

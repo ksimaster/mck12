@@ -162,8 +162,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: This is an example of an item description
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 976fbe5b1893c8847a156a696fad3600, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 68b2a5d636e76934f83a5a5058426d6c, type: 2}
+  m_sharedMaterial: {fileID: -5280770783876949267, guid: 68b2a5d636e76934f83a5a5058426d6c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -358,8 +358,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 68b2a5d636e76934f83a5a5058426d6c, type: 2}
+  m_sharedMaterial: {fileID: -5280770783876949267, guid: 68b2a5d636e76934f83a5a5058426d6c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
