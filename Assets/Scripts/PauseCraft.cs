@@ -5,10 +5,11 @@ using UnityEngine;
 public class PauseCraft : MonoBehaviour
 {
     public GameObject CraftPanel;
+    public GameObject PausePanel;
     void Update()
     {
 
-        if (CraftPanel.activeSelf)
+        if (CraftPanel.activeSelf || PausePanel.activeSelf)
         {
             Pause();
         }

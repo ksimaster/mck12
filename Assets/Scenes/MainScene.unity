@@ -10315,6 +10315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CraftPanel: {fileID: 1220036506}
+  PausePanel: {fileID: 738104307}
 --- !u!1001 &717786640
 PrefabInstance:
   m_ObjectHideFlags: 0
