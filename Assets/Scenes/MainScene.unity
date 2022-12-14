@@ -10213,6 +10213,7 @@ GameObject:
   - component: {fileID: 712736943}
   - component: {fileID: 712736942}
   - component: {fileID: 712736944}
+  - component: {fileID: 712736945}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -10301,6 +10302,19 @@ MonoBehaviour:
   attackIncreasePerLevel: 1.2
   waveCount: 0
   enemyCount: 0
+--- !u!114 &712736945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712736941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5270537253467146856b48c9a3104ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CraftPanel: {fileID: 1220036506}
 --- !u!1001 &717786640
 PrefabInstance:
   m_ObjectHideFlags: 0
