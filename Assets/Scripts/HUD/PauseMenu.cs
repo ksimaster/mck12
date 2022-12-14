@@ -11,7 +11,10 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private string howToPlayScene = "HowToPlayScene";
 
     public GameObject pauseMenuUI;
-
+    private void Start()
+    {
+        Resume();
+    }
     void Update()
     {
         if (InventoryCanvas.InventoryIsOpen) return;
